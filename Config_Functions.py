@@ -4,8 +4,9 @@ from Stocklist import get_URL, addToWatchList, print_watchList
 #addToWatchList()
 #print_watchList()
 
-key = 'PKMWL3BC6SITQ1GQ3V3Q'
-sec = 'QT93HETUJDMvymaJe9J1EjTMnlSfBP8/6Cyq952N'
+'''Obtain from alpaca's website'''
+key = 'KEY'
+sec = 'SECRET_KEY'
 
 url = "https://paper-api.alpaca.markets"
 account_url = "{}/v2/account".format(url)
